@@ -8,3 +8,8 @@ console.log(typeof valueIntNumber)
 let isLoggedIn = 1
 let booleanIslLoggedIn = Boolean(isLoggedIn)
 console.log(booleanIslLoggedIn)
+
+console.log(1+2)
+console.log(1+"2")
+console.log(1+2+"2")
+console.log("1"+2)
