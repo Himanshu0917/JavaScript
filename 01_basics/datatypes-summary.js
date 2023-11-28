@@ -9,14 +9,22 @@
 
 // javascrupt is dynamically typed language 
 
-const heroes = ["Shakitiman","Nagraj","Doga"]
-let myObj = {
-    name: "hitesh",
-    age: 22,
-}
+// const heroes = ["Shakitiman","Nagraj","Doga"]
+// let myObj = {
+//     name: "hitesh",
+//     age: 22,
+// }
 
-const myFunction = function(){
-    console.log("hello world");
-}
+// const myFunction = function(){
+//     console.log("hello world");
+// }
 
-console.log(typeof myFunction)
+// console.log(typeof myFunction)
+
+// there are two type of memories
+//  stack and heap
+// stack(primitive) heap(non-primitive)
+
+let myname  = "Himanshu"
+let anothername = myname
+console.log(anothername)
