@@ -30,3 +30,36 @@ function loginUser(username){
 }
 
 console.log(loginUser("Himanshu"))
+
+// REST OPERATOR
+
+function calculateCarPrice(val1,val2,...num1)
+{
+    return num1;
+}
+
+console.log(100,200)
+
+//  Pass Objects to a function
+
+const user ={
+    username: "himanshu",
+    price: 200
+}
+
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`)
+}
+
+handleObject(user);
+
+//  pass arrays to a function
+
+const myNewArray = [200,300,400,500]
+
+function returnSecond(getArray)
+{
+    return getArray[1];
+}
+
+console.log(returnSecond(myNewArray));
